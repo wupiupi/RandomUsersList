@@ -15,13 +15,15 @@ struct ContactListView: View {
     }
     
     var body: some View {
-        TabView {
-            VStack {
-                List(contacts) { contact in
+        VStack {
+            List(contacts) { contact in
+                NavigationLink(
+                    destination: ContactDetailsView(contact: contact)
+                ) {
                     Text(contact.fullName)
                 }
-                .listStyle(.plain)
             }
+            .listStyle(.plain)
         }
     }
 }
