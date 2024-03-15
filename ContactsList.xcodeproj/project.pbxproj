@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0616AD82BA4B84700C13319 /* RandomUsersListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AD72BA4B84700C13319 /* RandomUsersListApp.swift */; };
+		A0616AD82BA4B84700C13319 /* ContactsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AD72BA4B84700C13319 /* ContactsListApp.swift */; };
 		A0616ADA2BA4B84700C13319 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AD92BA4B84700C13319 /* ContactListView.swift */; };
 		A0616ADC2BA4B84800C13319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0616ADB2BA4B84800C13319 /* Assets.xcassets */; };
 		A0616ADF2BA4B84800C13319 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0616ADE2BA4B84800C13319 /* Preview Assets.xcassets */; };
 		A0616AE72BA4C88700C13319 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AE62BA4C88700C13319 /* Contact.swift */; };
 		A0616AEA2BA4C92F00C13319 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AE92BA4C92F00C13319 /* DataStorage.swift */; };
 		A0616AED2BA4CFF700C13319 /* ContactListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AEC2BA4CFF700C13319 /* ContactListViewViewModel.swift */; };
-		A0616AF02BA4D37400C13319 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AEF2BA4D37400C13319 /* RootView.swift */; };
+		A0616AF02BA4D37400C13319 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AEF2BA4D37400C13319 /* ContactsView.swift */; };
 		A0616AF32BA4D3AD00C13319 /* ContactNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0616AF22BA4D3AD00C13319 /* ContactNumbersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0616AD42BA4B84700C13319 /* RandomUsersList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsersList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0616AD72BA4B84700C13319 /* RandomUsersListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersListApp.swift; sourceTree = "<group>"; };
+		A0616AD42BA4B84700C13319 /* ContactsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0616AD72BA4B84700C13319 /* ContactsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListApp.swift; sourceTree = "<group>"; };
 		A0616AD92BA4B84700C13319 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		A0616ADB2BA4B84800C13319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0616ADE2BA4B84800C13319 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0616AE62BA4C88700C13319 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		A0616AE92BA4C92F00C13319 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 		A0616AEC2BA4CFF700C13319 /* ContactListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewViewModel.swift; sourceTree = "<group>"; };
-		A0616AEF2BA4D37400C13319 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A0616AEF2BA4D37400C13319 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		A0616AF22BA4D3AD00C13319 /* ContactNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNumbersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +45,7 @@
 		A0616ACB2BA4B84700C13319 = {
 			isa = PBXGroup;
 			children = (
-				A0616AD62BA4B84700C13319 /* RandomUsersList */,
+				A0616AD62BA4B84700C13319 /* ContactsList */,
 				A0616AD52BA4B84700C13319 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,24 +53,24 @@
 		A0616AD52BA4B84700C13319 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0616AD42BA4B84700C13319 /* RandomUsersList.app */,
+				A0616AD42BA4B84700C13319 /* ContactsList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0616AD62BA4B84700C13319 /* RandomUsersList */ = {
+		A0616AD62BA4B84700C13319 /* ContactsList */ = {
 			isa = PBXGroup;
 			children = (
-				A0616AD72BA4B84700C13319 /* RandomUsersListApp.swift */,
+				A0616AD72BA4B84700C13319 /* ContactsListApp.swift */,
 				A0616AF12BA4D3A200C13319 /* ContactNumbersView */,
-				A0616AEE2BA4D36C00C13319 /* RootView */,
+				A0616AEE2BA4D36C00C13319 /* ContactsView */,
 				A0616AE52BA4C87F00C13319 /* Models */,
 				A0616AEB2BA4CFE300C13319 /* ContactListView */,
 				A0616ADB2BA4B84800C13319 /* Assets.xcassets */,
 				A0616AE82BA4C91000C13319 /* Services */,
 				A0616ADD2BA4B84800C13319 /* Preview Content */,
 			);
-			path = RandomUsersList;
+			path = ContactsList;
 			sourceTree = "<group>";
 		};
 		A0616ADD2BA4B84800C13319 /* Preview Content */ = {
@@ -106,12 +106,12 @@
 			path = ContactListView;
 			sourceTree = "<group>";
 		};
-		A0616AEE2BA4D36C00C13319 /* RootView */ = {
+		A0616AEE2BA4D36C00C13319 /* ContactsView */ = {
 			isa = PBXGroup;
 			children = (
-				A0616AEF2BA4D37400C13319 /* RootView.swift */,
+				A0616AEF2BA4D37400C13319 /* ContactsView.swift */,
 			);
-			path = RootView;
+			path = ContactsView;
 			sourceTree = "<group>";
 		};
 		A0616AF12BA4D3A200C13319 /* ContactNumbersView */ = {
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0616AD32BA4B84700C13319 /* RandomUsersList */ = {
+		A0616AD32BA4B84700C13319 /* ContactsList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0616AE22BA4B84800C13319 /* Build configuration list for PBXNativeTarget "RandomUsersList" */;
+			buildConfigurationList = A0616AE22BA4B84800C13319 /* Build configuration list for PBXNativeTarget "ContactsList" */;
 			buildPhases = (
 				A0616AD02BA4B84700C13319 /* Sources */,
 				A0616AD12BA4B84700C13319 /* Frameworks */,
@@ -137,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = RandomUsersList;
+			name = ContactsList;
 			productName = RandomUsersList;
-			productReference = A0616AD42BA4B84700C13319 /* RandomUsersList.app */;
+			productReference = A0616AD42BA4B84700C13319 /* ContactsList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A0616ACF2BA4B84700C13319 /* Build configuration list for PBXProject "RandomUsersList" */;
+			buildConfigurationList = A0616ACF2BA4B84700C13319 /* Build configuration list for PBXProject "ContactsList" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0616AD32BA4B84700C13319 /* RandomUsersList */,
+				A0616AD32BA4B84700C13319 /* ContactsList */,
 			);
 		};
 /* End PBXProject section */
@@ -194,8 +194,8 @@
 			files = (
 				A0616ADA2BA4B84700C13319 /* ContactListView.swift in Sources */,
 				A0616AED2BA4CFF700C13319 /* ContactListViewViewModel.swift in Sources */,
-				A0616AF02BA4D37400C13319 /* RootView.swift in Sources */,
-				A0616AD82BA4B84700C13319 /* RandomUsersListApp.swift in Sources */,
+				A0616AF02BA4D37400C13319 /* ContactsView.swift in Sources */,
+				A0616AD82BA4B84700C13319 /* ContactsListApp.swift in Sources */,
 				A0616AF32BA4D3AD00C13319 /* ContactNumbersView.swift in Sources */,
 				A0616AE72BA4C88700C13319 /* Contact.swift in Sources */,
 				A0616AEA2BA4C92F00C13319 /* DataStorage.swift in Sources */,
@@ -331,7 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RandomUsersList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ContactsList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -359,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RandomUsersList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ContactsList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -383,7 +383,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0616ACF2BA4B84700C13319 /* Build configuration list for PBXProject "RandomUsersList" */ = {
+		A0616ACF2BA4B84700C13319 /* Build configuration list for PBXProject "ContactsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0616AE02BA4B84800C13319 /* Debug */,
@@ -392,7 +392,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0616AE22BA4B84800C13319 /* Build configuration list for PBXNativeTarget "RandomUsersList" */ = {
+		A0616AE22BA4B84800C13319 /* Build configuration list for PBXNativeTarget "ContactsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0616AE32BA4B84800C13319 /* Debug */,

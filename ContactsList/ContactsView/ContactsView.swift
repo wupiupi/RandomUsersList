@@ -1,5 +1,5 @@
 //
-//  RootView.swift
+//  ContactsView.swift
 //  RandomUsersList
 //
 //  Created by Paul Makey on 15.03.24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RootView: View {
+struct ContactsView: View {
     var body: some View {
         NavigationStack {
             TabView {
@@ -16,6 +16,7 @@ struct RootView: View {
                         Image(systemName: "person.2.fill")
                         Text("Contacts")
                     }
+                
                 ContactNumbersView()
                     .tabItem {
                         Image(systemName: "phone")
@@ -28,5 +29,5 @@ struct RootView: View {
 }
 
 #Preview {
-    RootView()
+    ContactsView()
 }
