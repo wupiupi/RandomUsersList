@@ -9,21 +9,18 @@ import SwiftUI
 
 struct ContactsView: View {
     var body: some View {
-        NavigationStack {
-            TabView {
-                ContactListView()
-                    .tabItem {
-                        Image(systemName: "person.2.fill")
-                        Text("Contacts")
-                    }
-                
-                ContactNumbersView()
-                    .tabItem {
-                        Image(systemName: "phone")
-                        Text("Numbers")
-                    }
-            }
-            .navigationTitle("Contacts")
+        TabView {
+            ContactListView()
+                .tabItem {
+                    Image(systemName: "person.2.fill")
+                    Text("Contacts")
+                }
+            
+            ContactNumbersView()
+                .tabItem {
+                    Image(systemName: "phone")
+                    Text("Numbers")
+                }
         }
     }
 }
