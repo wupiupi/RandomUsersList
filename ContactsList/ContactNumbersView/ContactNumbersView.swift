@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct ContactNumbersView: View {
+    let contacts: [Contact]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(contacts) { contact in
+                ContactSectionView(contact: contact)
+            }
+            .listStyle(.plain)
+            .navigationTitle("Contacts")
+        }
     }
 }
 
 #Preview {
-    ContactNumbersView()
+    ContactNumbersView(contacts: Contact.getContacts())
 }

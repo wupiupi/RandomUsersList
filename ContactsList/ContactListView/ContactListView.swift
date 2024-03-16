@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct ContactListView: View {
-    let contactListViewModel = ContactListViewViewModel()
-    
-    var contacts: [Contact] {
-        contactListViewModel.contacts
-    }
+
+    let contacts: [Contact]
     
     var body: some View {
         NavigationStack {
@@ -21,7 +18,10 @@ struct ContactListView: View {
                     NavigationLink(
                         destination: ContactDetailsView(contact: contact)
                     ) {
-                        Text(contact.fullName)
+                        // [!] Не избыточно ли создавать отдельный View для того,
+                        // чтобы передать одну строку?
+                        
+                        ContactRowView(contact: contact)
                     }
                 }
                 .listStyle(.plain)
@@ -32,5 +32,5 @@ struct ContactListView: View {
 }
 
 #Preview {
-    ContactListView()
+    ContactListView(contacts: Contact.getContacts())
 }

@@ -14,12 +14,12 @@ struct ContactDetailsView: View {
         List {
             ImageView()
             
-            CustomLabel(
+            CustomLabelView(
                 title: contact.phoneNumber,
                 systemImage:  "phone"
             )
             
-            CustomLabel(
+            CustomLabelView(
                 title: contact.email,
                 systemImage: "tray"
             )
@@ -42,19 +42,7 @@ struct ContactDetailsView: View {
 
 
 
-struct CustomLabel: View {
-    let title: String
-    let systemImage: String
-    
-    var body: some View {
-        HStack {
-            Image(systemName: systemImage)
-                .foregroundStyle(.tint)
-                .font(.title2)
-            Text(title)
-        }
-    }
-}
+
 
 struct ImageView: View {
     var body: some View {
